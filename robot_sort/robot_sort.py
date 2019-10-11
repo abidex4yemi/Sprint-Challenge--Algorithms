@@ -98,7 +98,7 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        if self.can_move_right() is False and self.light_is_on() is False:
+        if not self.can_move_right() and not self.light_is_on():
             exit
         else:
             self.set_light_off()
