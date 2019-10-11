@@ -34,4 +34,5 @@ Suppose that you have an n-story building and plenty of eggs. Suppose also that 
 
 Write out your proposed algorithm in plain English or pseudocode AND give the runtime complexity of your solution.
 
-eggs = {}
+Binary search will be a good algorithm to use
+Time Complexity = O(log n)
